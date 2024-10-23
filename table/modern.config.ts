@@ -3,10 +3,15 @@ import { garfishPlugin } from '@modern-js/plugin-garfish';
 
 // https://modernjs.dev/en/configure/app/usage
 export default defineConfig({
+  dev: {
+    port: 8081,
+  },
   runtime: {
     router: true,
     state: true,
-    masterApp: {},
+  },
+  deploy: {
+    microFrontend: true,
   },
   plugins: [
     appTools({

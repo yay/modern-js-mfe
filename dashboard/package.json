@@ -1,5 +1,5 @@
 {
-  "name": "modern-js-mfe",
+  "name": "dashboard",
   "version": "0.1.0",
   "scripts": {
     "reset": "npx rimraf node_modules ./**/node_modules",
@@ -24,22 +24,22 @@
     "pre-commit": "npx lint-staged"
   },
   "dependencies": {
-    "@modern-js/plugin-garfish": "2.60.4",
     "@modern-js/runtime": "2.60.4",
     "react": "~18.2.0",
-    "react-dom": "~18.2.0"
+    "react-dom": "~18.2.0",
+    "@modern-js/plugin-garfish": "2.60.4"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.3",
     "@modern-js/app-tools": "2.60.4",
     "@modern-js/tsconfig": "2.60.4",
+    "@biomejs/biome": "1.8.3",
+    "typescript": "~5.0.4",
     "@types/jest": "~29.2.4",
     "@types/node": "~16.11.7",
     "@types/react": "~18.0.26",
     "@types/react-dom": "~18.0.10",
     "lint-staged": "~13.1.0",
-    "rimraf": "^6.0.1",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "~5.0.4"
+    "rimraf": "^6.0.1"
   }
 }
